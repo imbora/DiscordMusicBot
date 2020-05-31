@@ -10,7 +10,7 @@ using DiscordMusicBot.Entities;
 
 namespace DiscordMusicBot
 {
-    public class StreamMusicBotClient
+    public class DiscordMusicBotClient
     {
         private readonly DiscordSocketClient _client;
         private readonly CommandService _cmdService;
@@ -19,7 +19,7 @@ namespace DiscordMusicBot
         private readonly ConfigService _configService;
         private readonly Config _config;
 
-        public StreamMusicBotClient()
+        public DiscordMusicBotClient()
         {
             _client = new DiscordSocketClient(new DiscordSocketConfig
             {
